@@ -1,7 +1,7 @@
-////Logical Errors (Bug in Logic)
-
-//// Example 1: Wrong formula
-//public class Test6 {
+//Logical Errors (Bug in Logic)
+//package Error;
+// Example 1: Wrong formula
+//public class LogicError {
 //    public static void main(String[] args) {
 //        int a = 10, b = 20;
 //        int avg = (a + b) / 2; // ✅ Correct
@@ -9,9 +9,9 @@
 //        System.out.println("Wrong Average = " + wrongAvg);
 //    }
 //}
-//
-//// Example 2: Infinite loop
-//public class Test7 {
+
+// Example 2: Infinite loop
+//public class LogicError {
 //    public static void main(String[] args) {
 //        int i = 1;
 //        while (i != 10) { // ❌ Condition never becomes false
